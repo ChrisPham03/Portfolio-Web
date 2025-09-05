@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+      --background: 255 255 255;
+      --foreground: 3 2 19;
+      --muted: 236 236 240;
+      --muted-foreground: 113 113 130;
+      --primary: 3 2 19;
+      --primary-foreground: 255 255 255;
+      --secondary: 243 243 245;
+      --border: 220 220 220;
+      --accent: 233 235 239;
+      --input: 220 220 220;
+      --ring: 3 2 19;
+  }
+
+  body {
+      font-family: 'Inter', sans-serif;
+      background-color: rgb(var(--background));
+      color: rgb(var(--foreground));
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+}
+
