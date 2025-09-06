@@ -20,7 +20,7 @@ export default function App() {
       <footer className="border-t py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground text-sm">
-            © 2025 Alex Chen. Designed and built with React, TypeScript, and Tailwind CSS.
+            © 2025 Chris Pham. Designed and built with React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </footer>

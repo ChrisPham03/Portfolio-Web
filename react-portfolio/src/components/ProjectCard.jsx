@@ -19,7 +19,7 @@ export default function ProjectCard({
           src={image}
           alt={title}
           className={`w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
-            isLarge ? 'h-80' : 'h-64'
+            isLarge ? 'h-68' : 'h-68'
           }`}
         />
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
