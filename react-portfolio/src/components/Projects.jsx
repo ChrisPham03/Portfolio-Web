@@ -4,12 +4,15 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
     const projectsData = [
          { title: "HandyMan Hub", description: "A comprehensive mobile application for tracking personal environmental impact...", image: "/images/HandyHub.png", tags: ["Mobile UI", "React Native", "Figma", "User Research"], liveUrl: "https://example.com", githubUrl: "https://github.com"},
+         { title: "Recipe Sharing Platform", description: "Social platform for sharing and discovering recipes...", image: "/images/AiChatBot.png", tags: ["UI/UX", "Prototyping", "User Testing", "Figma"], liveUrl: "https://example.com" },
          { title: "Analytics Dashboard", description: "Clean and modern dashboard design for data visualization...", image: "/images/QuickInfo.png", tags: ["Web UI", "React", "Data Viz", "Charts"], liveUrl: "https://example.com", githubUrl: "https://github.com" },
-         { title: "Recipe Sharing Platform", description: "Social platform for sharing and discovering recipes...", image: "https://placehold.co/600x400/4b5563/ffffff?text=Recipe+Platform", tags: ["UI/UX", "Prototyping", "User Testing", "Figma"], liveUrl: "https://example.com" },
-         { title: "Recipe Sharing Platform", description: "Social platform for sharing and discovering recipes...", image: "https://placehold.co/600x400/4b5563/ffffff?text=Recipe+Platform", tags: ["UI/UX", "Prototyping", "User Testing", "Figma"], liveUrl: "https://example.com" },
+         { title: "Recipe Sharing Platform", description: "Social platform for sharing and discovering recipes...", image: "/images/Schedule.png", tags: ["UI/UX", "Prototyping", "User Testing", "Figma"], liveUrl: "https://example.com" },
+        { title: "Recipe Sharing Platform", description: "Social platform for sharing and discovering recipes...", image: "/images/BlindSocial.png", tags: ["UI/UX", "Prototyping", "User Testing", "Figma"], liveUrl: "https://example.com" },
+        { title: "Recipe Sharing Platform", description: "Social platform for sharing and discovering recipes...", image: "/images/SalonCheckin.png", tags: ["UI/UX", "Prototyping", "User Testing", "Figma"], liveUrl: "https://example.com" },
+         
     ];
     return (
-        <section id="projects" className="container mx-auto px-6 py-20">
+        <section id="projects" className="container mx-auto px-8 py-20">
             <div className="space-y-12">
                 <div className="text-center space-y-4">
                     <h2 className="text-3xl md:text-4xl font-medium ">
