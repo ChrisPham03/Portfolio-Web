@@ -1,29 +1,19 @@
-# Stage 1: Build the React application
-FROM node:18-alpine AS builder
+# Use the official Node.js 18 image
+FROM node:18-alpine
 
+# Set the working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json (if available)
+# Copy package.json and install dependencies
 COPY package.json ./
-
-# Install dependencies
 RUN npm install
 
-# Copy the rest of the application source code
+# Copy the rest of the application code
 COPY . .
 
-# Build the application for production
+# Build the application
 RUN npm run build
 
-# Stage 2: Serve the application using a lightweight Nginx server
-FROM nginx:alpine
-
-# Copy the build output from the builder stage to Nginx's web root
-COPY --from=builder /app/dist /usr/share/nginx/html
-
-# Expose port 80 for the Nginx server
-EXPOSE 80
-
-# The default Nginx command will start the server when the container runs
-CMD ["nginx", "-g", "daemon off;"]
-
+# The command to run when the container starts
+# This will watch the 'src' folder and rebuild on any changes
+CMD ["npx", "nodemon", "--watch", "src", "--exec", "npm", "run", "build"]

@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  web:
+    # This tells Docker Compose to use the Dockerfile.dev for this service
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    command: npm run dev
+    # Maps port 3000 on your machine to port 3000 in the container
+    ports:
+      - "3000:3000"
+    # This is key for live-reloading:
+    # It syncs your local files with the files inside the container
+    volumes:
+      - .:/app
+      # This prevents the container's node_modules from being overwritten
+      # by your local (and likely empty) node_modules folder
+      - /app/node_modules
+
