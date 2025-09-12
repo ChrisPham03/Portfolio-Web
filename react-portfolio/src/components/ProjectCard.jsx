@@ -14,7 +14,12 @@ export default function ProjectCard({
 }) {
   return (
     <div className={`group rounded-lg border overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${isLarge ? 'col-span-1 md:col-span-2' : ''}`}>
-      <div className="relative aspect-[16/10] overflow-hidden">
+      <div
+  className={`relative overflow-hidden ${
+    isLarge ? "aspect-[16/8]" : "aspect-[16/10]"
+  }`}
+>
+
         <img 
           src={image}
           alt={title}

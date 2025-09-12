@@ -75,7 +75,10 @@ export default function Header() {
             onClick={() => scrollToSection('contact')}
             variant="default"
             size="sm"
-            className="hidden md:inline-flex w-fit bg-white text-black  hover:bg-primary/90 hover:text-white transition-colors"
+            className="hidden md:inline-flex w-fit bg-white text-black 
+  hover:bg-gradient-to-r hover:from-regularCyan hover:to-veryLightBlue 
+  hover:text-white transition-colors"
+
           >
             Get In Touch
           </Button>
