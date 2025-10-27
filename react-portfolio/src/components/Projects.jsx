@@ -8,23 +8,22 @@ const Projects = () => {
   "description": "An end-to-end mobile UI/UX case study covering the user journey from job searching to direct messaging, complete with a comprehensive design system and reusable component library crafted in Figma.",
   "image": "/images/HandyHub.png",
   "tags": ["Mobile UI", "Figma", "UI/UX Case Study"],
-  "liveUrl": "https://example.com",
-  "githubUrl": "https://github.com"
+  "liveUrl": "https://www.figma.com/proto/rclZ9suiVYdj5Z4AUf75Z3/Handy?node-id=72-9155\&t=dQOk1KZPtijJ16Rr-1\&scaling=scale-down\&content-scaling=fixed\&page-id=3\%3A25",
 },
          {
   "title": "Full-Stack AI Salon Assistant",
   "description": "A full-stack, multi-service AI application featuring a containerized Rasa backend, multiple React frontends, and sophisticated Python Custom Actions to handle complex business logic.",
   "image": "/images/AiChatBot.png",
   "tags": ["Full-Stack", "AI", "Rasa", "Python", "React", "Docker"],
-  "liveUrl": "https://example.com"
+  "githubUrl": "https://github.com/ChrisPham03/Quick-Info"
 },
          {
   "title": "Quick Info — Lead Generation CRM",
   "description": "A full-stack, web application for lead generation, featuring a React frontend, Node.js backend, real-time business discovery via the Google Maps API, and a server-side Redis cache for optimized performance.",
   "image": "/images/Quick.png",
   "tags": ["Full-Stack", "Next.js", "PostgreSQL", "Redis", "Google Maps API"],
-  "liveUrl": "https://example.com",
-  "githubUrl": "https://github.com"
+  "liveUrl": "https://quick-info-crm.vercel.app/",
+  "githubUrl": "https://github.com/ChrisPham03/Quick-Info"
 },
         {
   "title": "Confidential Booking Schedule App",
@@ -38,14 +37,14 @@ const Projects = () => {
   "description": "My first experience with UI design, this full-stack social media app was built as a team practice project. It inspired my passion for innovation and creativity in UI, where I was responsible for designing the user experience in Figma and creating a reusable design system.",
   "image": "/images/BlindSocial.png",
   "tags": ["Full-Stack", "Next.js", "MongoDB", "Figma", "UI/UX"],
-  "liveUrl": "https://example.com"
+  "githubUrl": "https://github.com/BaoTran685/Social-Platform"
 },
        {
   "title": "Customer Check-In and Booking App Interface",
   "description": "A responsive UI/UX component for a service booking app. I designed and implemented screens for customer check-in, registration, and service selection, incorporating animated advertisements and interactive elements.",
   "image": "/images/SalonCheckin.png",
   "tags": ["Flutter", "Dart", "UI/UX", "Mobile"],
-  "liveUrl": "https://example.com"
+  "githubUrl": "https://github.com/ChrisPham03/Booking-App"
 },
          
     ];

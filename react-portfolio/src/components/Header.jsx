@@ -7,7 +7,7 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       // We'll change the color after scrolling 50px
-      if (window.scrollY > 580) {
+      if (window.scrollY > 500) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
