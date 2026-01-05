@@ -10,21 +10,7 @@ const Projects = () => {
   "tags": ["Mobile UI", "Figma", "UI/UX Case Study"],
   "liveUrl": "https://www.figma.com/proto/rclZ9suiVYdj5Z4AUf75Z3/Handy?node-id=72-9155\&t=dQOk1KZPtijJ16Rr-1\&scaling=scale-down\&content-scaling=fixed\&page-id=3\%3A25",
 },
-         {
-  "title": "Full-Stack AI Salon Assistant",
-  "description": "A full-stack, multi-service AI application featuring a containerized Rasa backend, multiple React frontends, and sophisticated Python Custom Actions to handle complex business logic.",
-  "image": "/images/AiChatBot.png",
-  "tags": ["Full-Stack", "AI", "Rasa", "Python", "React", "Docker"],
-  "githubUrl": "https://github.com/ChrisPham03/Quick-Info"
-},
-         {
-  "title": "Quick Info — Lead Generation CRM",
-  "description": "A full-stack, web application for lead generation, featuring a React frontend, Node.js backend, real-time business discovery via the Google Maps API, and a server-side Redis cache for optimized performance.",
-  "image": "/images/Quick.png",
-  "tags": ["Full-Stack", "Next.js", "PostgreSQL", "Redis", "Google Maps API"],
-  "liveUrl": "https://quick-info-crm.vercel.app/",
-  "githubUrl": "https://github.com/ChrisPham03/Quick-Info"
-},
+,
         {
   "title": "Confidential Booking Schedule App",
   "description": "As a UI/UX Design Intern, I contributed to a booking schedule application. While I cannot share the UI due to a non-disclosure agreement, I am happy to discuss the design process, including user research, prototyping, and user testing.",
